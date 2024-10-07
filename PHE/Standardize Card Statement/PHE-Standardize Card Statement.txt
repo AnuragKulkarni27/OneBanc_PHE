@@ -1,0 +1,39 @@
+Here’s the Problem Statement
+
+ 
+
+Rahul has multiple credit cards of different banks and each of these banks generate card statements in different formats. In order to analyse his statements, Rahul needs our help to standardize them in single format.
+
+To help Rahul, we need to write a code that can normalize any statement in a standard format. Take reasonable assumptions and make the code as generic as possible. Look at all input files and standard output file before starting to code.
+
+ 
+
+You can write code in any of the following languages:
+
+C #
+C++
+Java
+Python
+Language of your choice not an option here? Just let me know 😊
+
+ 
+
+Function signature to be implemented
+
+StandardizeStatement (inputFile, outputFile)
+ 
+
+Following key points need to be considered
+
+Convert Date to DateTime format before printing in standard CSV and account for DD[1]MM-YYYY, MM-DD-YYYY and DD-MM-YY format
+Convert the Amount to Double
+A single Input file should be taken at a time as a parameter and output file should be generated for the same. (Input/Output files should not be merged)
+While submitting the code, please attach all the four output files
+Output file name should be as per input file name. (Example of Input and output file name convention is given below for reference) 
+InputFile : HDFC-Input-Case1.csv
+
+OutputFile : HDFC-Output-Case1.csv
+
+ 
+
+4 input test case files and the Standard Format CSV are also placed in the folder for your reference
